@@ -1,0 +1,34 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelope, faLocationDot, faDownload } from "@fortawesome/free-solid-svg-icons";
+
+export default function About() {
+    return (
+        <div className="container mx-auto md:px-20 mb-15 mt-8 px-3 border-purple-500">
+            <div className="grid grid-cols-12 gap-4">
+                <div className="md:col-span-5 col-span-12">
+                    <div className="text-center">
+                        <img className="rounded-full md:size-80 size-60 mx-auto" src="https://picsum.photos/seed/picsum/200/300" alt="image description" />
+                    </div>
+                </div>
+                <div className="md:col-span-7 col-span-12">
+                    <section className="about-text mb-4">
+                        <h1 className="mb-2 text-3xl font-bold">Muhammad Soffatur Rohman</h1>
+                        <h3 className="mb-4 text-xl flex">    
+                            Fullstack Developer | Product Manager
+                        </h3>
+                        <p className="text-[16px]">I am a full-stack developer with 4+ years of experience creating exceptional web applications. I am skilled at analyzing user needs, developing system flows from flowcharts and activity diagrams to UI design. I am currently attending a UI/UX & Product Management boot camp to strengthen my Product Management skills.</p>
+                    </section>
+                    <section className="mt-8 flex flex-wrap md:justify-between">
+                        <button className="bg-[#E3E3E3] py-2.5 px-3.5 mb-2 text-sm rounded-lg w-full md:w-auto"><FontAwesomeIcon size="lg" icon={faPhone} /> 083116232970</button>
+                        <button className="bg-[#E3E3E3] py-2.5 px-3.5 mb-2 text-sm rounded-lg w-full md:w-auto"><FontAwesomeIcon size="lg" icon={faEnvelope} /> soffatur26@gmail.com</button>
+                        <button className="bg-[#E3E3E3] py-2.5 px-3.5 mb-2 text-sm rounded-lg w-full md:w-auto"><FontAwesomeIcon size="lg" icon={faLocationDot} /> Semarang, Indonesia</button>
+                    </section>
+                    <section className="mt-8 flex">
+                        <a href="#" className="bg-slate-800 hover:bg-slate-900 text-white py-4 px-5.5 mb-2 rounded-lg font-bold me-5"><FontAwesomeIcon size="lg" icon={faDownload} /> Download Resume</a>
+                        <a href="#" className="bg-gray-200 hover:bg-gray-300 text-dark py-4 px-5.5 mb-2 rounded-lg font-bold"><FontAwesomeIcon size="lg" icon={faDownload} /> Hire Me Now!</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    );
+}
