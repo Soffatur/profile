@@ -4,8 +4,8 @@ import { faBookOpen } from '@fortawesome/free-solid-svg-icons';
 export default function CardEducation() {
     return (
         <>
-            <div className="md:col-span-5 col-span-12 md:col-start-2 mt-5">
-                <div className="max-w-full ps-7 pe-7 p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900 flex">
+            <div className="md:col-span-5 col-span-12 md:col-start-2 mb-2">
+                <div className="h-full max-w-full ps-7 pe-7 p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900 flex">
                     <div className="flex flex-col justify-center">
                         <span className="block w-1 rounded h-full bg-black mx-auto"></span>
                     </div>
@@ -21,8 +21,8 @@ export default function CardEducation() {
                     </div>
                 </div>
             </div>
-            <div className="md:col-span-5 col-span-12 mt-5">
-                <div className="max-w-full ps-7 pe-7 p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900 flex">
+            <div className="md:col-span-5 col-span-12 mb-2">
+                <div className="h-full max-w-full ps-7 pe-7 p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900 flex">
                     <div className="flex flex-col justify-center">
                         <span className="block w-1 rounded h-full bg-black mx-auto"></span>
                     </div>
