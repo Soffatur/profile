@@ -13,19 +13,19 @@ export default function Home() {
                     </div>
                     <div className="col-span-2 col-start-2 w-full items-center md:items-end flex flex-col">
                         <Link to={'/about'} className="md:w-[50%]">
-                            <img src="/src/assets/about.png" width={"100%"} />
+                            <img src="/about.png" width={"100%"} />
                             <p className="text-center text-base font-bold">About</p>
                         </Link>
                     </div>
                     <div className="col-span-2 w-full items-center flex flex-col">
                         <Link to={'/resume'} className="md:w-[50%]">
-                            <img src="/src/assets/cv.png" width={"100%"} />
+                            <img src="/cv.png" width={"100%"} />
                             <p className="text-center text-base font-bold">Resume</p>
                         </Link>
                     </div>
                     <div className="col-span-2 w-full items-center md:items-start flex flex-col">
                         <Link to={'/portfolio'} className="md:w-[50%]">
-                            <img src="/src/assets/portfolio.png" width={"100%"} />
+                            <img src="/portfolio.png" width={"100%"} />
                             <p className="text-center text-base font-bold">Portfolio</p>
                         </Link>
                     </div>

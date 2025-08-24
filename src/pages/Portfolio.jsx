@@ -6,7 +6,7 @@ export default function Portfolio() {
         <>
             <div className="min-h-screen justify-center items-center flex flex-col">
             <Navbar />
-                <img src="/src/assets/loading.gif" alt="" width={200}/>
+                <img src="/loading.gif" alt="" width={200}/>
                 <p className="text-xl text-reguler">Under Repair</p>
             <Footer />
             </div>

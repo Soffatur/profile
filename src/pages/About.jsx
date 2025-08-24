@@ -11,7 +11,7 @@ export default function About() {
                 <div className="grid grid-cols-12 gap-4">
                     <div className="md:col-span-5 col-span-12">
                         <div className="text-center">
-                            <img className="rounded-full md:size-80 size-60 mx-auto" src="/src/assets/soffatur.png" alt="image description" />
+                            <img className="rounded-full md:size-80 size-60 mx-auto" src="/soffatur.png" alt="image description" />
                         </div>
                     </div>
                     <div className="md:col-span-7 col-span-12">
