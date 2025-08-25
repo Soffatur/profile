@@ -28,6 +28,16 @@ export default function Resume() {
                 "Coordinate with teams and clients to translate functional requirements into technical solutions.",
                 "Responsible as Tech Leader in BISMA ERP project, directing technical implementation and developer team management."
             ]
+        },
+        {
+            title: "Software Developer - Internship",
+            company: "PT. Solusi Bangun Indonesia Tbk.",
+            date: "January 2020 - March 2020",
+            description: [
+                "Built a web-based internship registration system with department selection, major eligibility, and quota management using PHP, MySQL, and Bootstrap.",
+                "Designed and optimized system workflows, database structures, and UI/UX based on HR requirements.",
+                "Performed end-to-end testing to ensure reliability and alignment with business needs."
+            ]
         }
     ]
 
