@@ -38,6 +38,7 @@ export default function Resume() {
         { type: 'training', title: "Coda", desc: "Advanced Crash Course (Remote Working, Agile Development, Git and Project Deliveries)", year: "2022" },
         { type: 'training', title: "Udemy", desc: "Ethereum Blockchain Developer Bootcamp With Solidity", year: "2022" },
         { type: 'certificate', title: "BNSP", desc: "Programmer", year: "2019" },
+        { type: 'certificate', title: "Brain-O-Meter, Bamboomedia", desc: "Web Dinamis (PHP & MYSQL)", year: "2018" },
 
     ];
 
