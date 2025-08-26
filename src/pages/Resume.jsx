@@ -53,7 +53,7 @@ export default function Resume() {
     ];
 
     const skills = [
-        { 'icon': faCode, title: "Web Development", items: ['HTML', 'CSS', 'Bootstrap', 'Tailwindcss', 'JavaScript', 'jQuery', 'PHP (Laravel)', 'Node.js (Express.js)', 'REST API', 'MySQL', 'PostgreSQL', 'Version Control System (GIT)'] },
+        { 'icon': faCode, title: "Web Development", items: ['HTML', 'CSS', 'Bootstrap', 'Tailwindcss', 'JavaScript', 'jQuery', 'PHP (Laravel)', 'Node.js (Express.js)', 'REST API', 'MySQL', 'PostgreSQL', 'Version Control System (GIT)', 'Redis'] },
         { 'icon': faChartDiagram, title: "UI/UX & Diagramming", items: ['Figma', 'Balsamiq (Wireframing)', 'Miro', 'Draw.io (Flowcharting, Activity Diagram)'] },
         { 'icon': faDiagramProject, title: "Project Management & Collaboration", items: ['Trello', 'Jira', 'Notion', 'Slack'] },
         { 'icon': faShareNodes, title: "Soft Skill", items: ['Communication', 'Problem Solving', 'Collaboration', 'Time Mamagement', 'Adaptability', 'Empathy'] },
