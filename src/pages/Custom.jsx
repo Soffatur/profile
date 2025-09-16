@@ -23,12 +23,12 @@ export default function Custom() {
             {/*  navbar di atas */}
             <nav className="fixed top-0 left-0 w-full z-50 bg-[#20BDFF] text-white">
                 <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-                    <div className="text-xl font-reguler w-full text-center font-bold">💕⃝🕊️ Love Story 💕⃝🕊️</div>
+                    <div className="text-xl font-reguler w-full text-center font-bold">💕🕊️ Love Story 💕🕊️</div>
                 </div>
             </nav>
 
             {/* konten */}
-            <section className="h-full bg-fixed mt-13 bg-gradient-to-b from-[#6dd5ed] to-[#7F00FF]">
+            <section className="h-full bg-fixed mt-10 bg-gradient-to-b from-[#6dd5ed] to-[#7F00FF]">
                 <div className="pt-8">
                     <img src="/soffatur.jpg" alt="Profile" className="w-70 h-70 rounded-full border-4 border-white shadow-lg object-cover mx-auto" />
                     <h1 className="text-3xl mt-8 ms-5 me-5 font-bold text-white text-center">Muhammad Soffatur Rohman</h1>
