@@ -18,7 +18,7 @@ export default function About() {
                         <section className="about-text mb-4">
                             <h1 className="mb-2 text-3xl font-bold">Muhammad Soffatur Rohman</h1>
                             <h3 className="mb-4 text-xl flex">
-                                Fullstack Developer | Product Manager
+                                IT Consultant | Software Developer
                             </h3>
                             <p className="text-[16px]">I am a full-stack developer with 4+ years of experience creating exceptional web applications. I am skilled at analyzing user needs, developing system flows from flowcharts and activity diagrams to UI design. I am currently attending a UI/UX & Product Management bootcamp to strengthen my Product Management skills.</p>
                         </section>
