@@ -9,7 +9,7 @@ export default function Home() {
             <div className="min-h-screen bg-gray-200 text-gray-500">
                 <div className="grid grid-cols-8 gap-4 ps-5 pe-5 pt-10 mb-20">
                     <div className="col-span-8 md:col-span-4 md:col-start-3 mt-10 mb-10">
-                        <h1 className="text-4xl font-bold text-center">Hello, I'm Muhammad Soffatur Rohman a IT Consultant & Software Developer</h1>
+                        <h1 className="text-4xl font-bold text-center">Hello, I'm Muhammad Soffatur Rohman a Software Developer Turned DevOps & Product Management Enthusiast</h1>
                     </div>
                     <div className="col-span-2 col-start-2 w-full items-center md:items-end flex flex-col">
                         <Link to={'/about'} className="md:w-[50%]">
