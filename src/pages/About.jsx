@@ -18,9 +18,10 @@ export default function About() {
                         <section className="about-text mb-4">
                             <h1 className="mb-2 text-3xl font-bold">Muhammad Soffatur Rohman</h1>
                             <h3 className="mb-4 text-xl flex">
-                                IT Consultant | Software Developer
+                                Software Developer Turned DevOps & Product Management Enthusiast
                             </h3>
-                            <p className="text-[16px]">I am a full-stack developer with 4+ years of experience creating exceptional web applications. I am skilled at analyzing user needs, developing system flows from flowcharts and activity diagrams to UI design. I am currently attending a UI/UX & Product Management bootcamp to strengthen my Product Management skills.</p>
+                            <p className="text-[16px]">I am a Software Developer with 4 years of experience in full-stack web development. Currently, I am deepening my expertise in Docker, Nginx, and DevOps practices to bridge the gap between software development and deployment efficiency. My focus is on solving technical challenges and transforming complex systems into reliable, scalable solutions. <br /> <br />
+                            In addition, I am currently joining a Product Management bootcamp to expand my understanding of product strategy, user needs analysis, and cross-functional collaboration. My goal is to combine technical expertise with strategic product thinking to grow into a Technical Product Manager who can effectively connect the business and engineering sides of product development.</p>
                         </section>
                         <section className="mt-8 flex flex-wrap md:justify-between">
                             <button className="bg-[#E3E3E3] py-2.5 px-3.5 mb-2 text-sm rounded-lg w-full md:w-auto"><FontAwesomeIcon size="lg" icon={faPhone} /> 083116232970</button>

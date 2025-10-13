@@ -9,7 +9,7 @@ export default function CardSkill(props) {
                     <h1 className="text-center mt-1 text-xl font-bold mb-4">{skill.title}</h1>
                     <div className="w-full flex flex-wrap mb-2">
                         {skill.items.map((item, idx) => (
-                            <span className="bg-slate-900 text-white text-[11px] mb-2 me-2 px-2.5 py-0.5 rounded-xl" key={idx}>{item}</span> 
+                            <span className="bg-gray-100 text-gray-700 text-[11px] mb-2 me-2 px-2.5 py-0.5 rounded-full hover:bg-gray-200 transition" key={idx}>{item}</span> 
                         ))}
                     </div>
                 </div>

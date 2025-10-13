@@ -12,10 +12,10 @@ export default function Resume() {
             company: "PT. Arga Fasad Indonesia",
             date: "April 2024 - Present",
             description: [
-                "Analyzed system requirements for the Finance, Marketing, and HRGA divisions, and created activity diagrams for process flows.",
-                "Designed and developed Laravel-based internal applications according to user requirements.",
-                "Designed simple UIs and wireframes to support system usability.",
-                "Produced technical documentation and conducted system outreach and training for end-users."
+                "Develop and maintain internal applications using Laravel, MySQL, Bootstrap, and TailwindCSS.",
+                "Manage deployment and infrastructure with Docker and Nginx.",
+                "Coordinate with multiple divisions to analyze requirements, build documentation, and train users.",
+                "Act as a bridge between business needs and technical implementation."
             ]
         },
         {
@@ -24,7 +24,8 @@ export default function Resume() {
             date: "March 2021 - July 2023",
             description: [
                 "Develop web-based applications and REST APIs.",
-                "Designing databases and backend logic for various internal and external client systems.",
+                "Accustomed to working with the waterfall methodology and agile scrum method.",
+                "Collaborated closely with frontend teams for efficient REST API integration.",
                 "Coordinate with teams and clients to translate functional requirements into technical solutions.",
                 "Responsible as Tech Leader in BISMA ERP project, directing technical implementation and developer team management."
             ]
@@ -53,11 +54,11 @@ export default function Resume() {
     ];
 
     const skills = [
-        { 'icon': faCode, title: "Web Development", items: ['HTML', 'CSS', 'Bootstrap', 'Tailwindcss', 'JavaScript', 'jQuery', 'PHP (Laravel)', 'Node.js (Express.js)', 'REST API', 'MySQL', 'PostgreSQL', 'Version Control System (GIT)', 'Redis'] },
+        { 'icon': faCode, title: "Software Development & Infrastructure", items: ['HTML, Bootstrap, TailwindCSS', 'PHP (Laravel)', 'Golang', 'Node.js (Expres.js)', 'REST API', 'MySQL, PostgreSQL, Redis', 'Postman', 'Docker', 'Nginx', 'VPS Management', 'Version Control (Git, Gitlab, Github)' ] },
         { 'icon': faChartDiagram, title: "UI/UX & Diagramming", items: ['Figma', 'Balsamiq (Wireframing)', 'Miro', 'Draw.io (Flowcharting, Activity Diagram)'] },
-        { 'icon': faDiagramProject, title: "Project Management & Collaboration", items: ['Trello', 'Jira', 'Notion', 'Slack'] },
-        { 'icon': faShareNodes, title: "Soft Skill", items: ['Communication', 'Problem Solving', 'Collaboration', 'Time Mamagement', 'Adaptability', 'Empathy'] },
-        { 'icon': faLanguage, title: "Language", items: ['Indonesian (Native)', 'English(Basic)'] },
+        { 'icon': faDiagramProject, title: "Project Management & Collaboration", items: ['Trello', 'Jira', 'Notion', 'Slack', 'User Story', 'Agile & Scrum understanding', 'Market Research', 'Feature Prioritization', 'Product Requirement Document (PRD)'] },
+        { 'icon': faShareNodes, title: "Soft Skill", items: ['Communication', 'Problem Solving', 'Initiative', 'Collaboration', 'Critical Thinking', 'Adaptability', 'Empathy', 'Time Mamagement'] },
+        { 'icon': faLanguage, title: "Language", items: ['Indonesian (Native)', 'English(Improving for Profesional Use)'] },
     ];
 
     const cerGroup = [];
@@ -72,28 +73,28 @@ export default function Resume() {
             <div className="grid grid-cols-12 gap-4">
                 <div className="col-span-12 mb-3">
                     <h1 className="text-center text-3xl font-bold">Work Experience</h1>
-                    <div className="border-2 border-color-black w-18 rounded-md mx-auto mt-2"></div>
+                    <p className='text-center mt-1'>Professional journey and key contributions in software and system development</p>
                 </div>
                 <CardExperience data={experiences} />
             </div>
             <div className="flex flex-wrap justify-center mt-8 gap-4">
                 <div className="basis-full mb-3">
                     <h1 className="text-center text-3xl font-bold">Skill & Expertise</h1>
-                    <div className="border-2 border-color-black w-18 rounded-md mx-auto mt-2"></div>
+                    <p className='text-center mt-1'>Bridging Software Development, Infrastructure, and Product Thinking</p>
                 </div>
                 <CardSkill data={skills} />
             </div>
             <div className="grid grid-cols-12 gap-4 mt-8">
                 <div className="col-span-12 mb-3">
                     <h1 className="text-center text-3xl font-bold">Education</h1>
-                    <div className="border-2 border-color-black w-18 rounded-md mx-auto mt-2"></div>
+                    <p className='text-center mt-1'>Academic background supporting analytical and technical growth.</p>
                 </div>
                 <CardEducation />
             </div>
             <div className="grid grid-cols-12 gap-4 mt-8">
                 <div className="col-span-12 mb-3">
                     <h1 className="text-center text-3xl font-bold">Training & Certification</h1>
-                    <div className="border-2 border-color-black w-18 rounded-md mx-auto mt-2"></div>
+                    <p className='text-center mt-1'>Continuous learning in technology, infrastructure, and product management.</p>
                 </div>
                 <CardCertificate certificates={cerGroup} />
             </div>
