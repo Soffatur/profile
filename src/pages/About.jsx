@@ -29,7 +29,7 @@ export default function About() {
                             <button className="bg-[#E3E3E3] py-2.5 px-3.5 mb-2 text-sm rounded-lg w-full md:w-auto"><FontAwesomeIcon size="lg" icon={faLocationDot} /> Semarang, Indonesia</button>
                         </section>
                         <section className="mt-8 flex">
-                            <a href="/public/CV_MuhammadSoffaturRohman.pdf" target="blank" className="bg-slate-800 hover:bg-slate-900 text-white py-4 px-5.5 mb-2 rounded-lg font-bold me-5"><FontAwesomeIcon size="lg" icon={faDownload} /> Download Resume</a>
+                            <a href="/CV_MuhammadSoffaturRohman.pdf" target="blank" className="bg-slate-800 hover:bg-slate-900 text-white py-4 px-5.5 mb-2 rounded-lg font-bold me-5"><FontAwesomeIcon size="lg" icon={faDownload} /> Download Resume</a>
                             <a href="http://wa.me/6283116232970" target="blank" className="bg-gray-200 hover:bg-gray-300 text-dark py-4 px-5.5 mb-2 rounded-lg font-bold"><FontAwesomeIcon size="lg" icon={faPaperPlane} /> Hire Me Now!</a>
                         </section>
                     </div>
