@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export default function Portfolio() {
+    const status = 'under'
     const datas = [
         {
             client_project: 'BISMA ERP Omni-Channel (Omnichannel Marketplace Integration)',
@@ -142,6 +143,19 @@ export default function Portfolio() {
             result: 'Aplikasi menjadi lebih cepat, stabil, dan mendukung proses supply chain serta kontrol kualitas PT Akebono Brake Astra.'
         },
     ]
+
+    if (status == 'under') {
+        return (
+            <>
+                <div className="min-h-screen justify-center items-center flex flex-col">
+                    <Navbar />
+                    <img src="/loading.gif" alt="" width={200} />
+                    <p className="text-xl text-reguler">Under Repair</p>
+                    <Footer />
+                </div>
+            </>
+        );
+    }
     return (
         <>
             <Navbar />
