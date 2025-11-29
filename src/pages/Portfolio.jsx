@@ -241,7 +241,7 @@ export default function Portfolio() {
                     </div>
                     <div className="col-span-12 px-2 mb-6">
                         {datas.map((item, index) => (
-                            <div key={index} className="basis-full ps-7 pe-7 p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900">
+                            <div key={index} className="basis-full ps-7 pe-7 p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900 mb-2">
                                 <div className="p-3 ps-3 pe-3">
                                     <h2 className="text-reguler font-bold mb-2">{item.client_project} - {item.client_name}</h2>
                                     <span className="bg-slate-900 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-xl">{item.company}</span>
