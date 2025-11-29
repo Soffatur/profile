@@ -235,9 +235,9 @@ export default function Portfolio() {
             <Navbar />
             <div className="container mx-auto md:px-20 mb-15 mt-8">
                 <div className="flex flex-wrap justify-center -mx-2">
-                    <div className="col-span-12 mb-3">
-                        <h1 className="text-center text-3xl font-bold">Work Experience</h1>
-                        <p className='text-center mt-1'>Professional journey and key contributions in software and system development</p>
+                    <div className="col-span-12 mb-5">
+                        <h1 className="text-center text-3xl font-bold">Featured Projects & Contributions</h1>
+                        <p className='text-center mt-1'>A curated selection of real systems I built and improved across multiple companies.</p>
                     </div>
                     {datas.map((item, index) => (
                         <div className="basis-8/12 px-2 mb-6 hover:scale-105 duration-300" key={index}>
