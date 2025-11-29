@@ -235,13 +235,13 @@ export default function Portfolio() {
             <Navbar />
             <div className="container mx-auto md:px-20 mb-15 mt-8">
                 <div className="flex flex-wrap justify-center -mx-2">
-                    <div className="col-span-12 mb-5">
+                    <div className="col-span-12 mb-5 pb-2">
                         <h1 className="text-center text-3xl font-bold">Featured Projects & Contributions</h1>
                         <p className='text-center mt-1'>A curated selection of real systems I built and improved across multiple companies.</p>
                     </div>
                     {datas.map((item, index) => (
                         <div className="basis-8/12 px-2 mb-6 hover:scale-105 duration-300" key={index}>
-                            <div className="bg-base-200 shadow-xl rounded-lg border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 h-full">
+                            <div className="max-w-full p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900">
                                 {/* <img src={`https://picsum.photos/id/${(index + 30)}/200/300`} className="h-48 w-96 object-cover" /> */}
                                 <div className="p-3 ps-3 pe-3">
                                     <h2 className="text-reguler font-bold mb-2">{item.client_project} - {item.client_name}</h2>
