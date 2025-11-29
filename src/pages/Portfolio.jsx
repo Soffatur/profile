@@ -233,16 +233,15 @@ export default function Portfolio() {
     return (
         <>
             <Navbar />
-            <div className="container mx-auto md:px-20 mb-15 mt-8">
-                <div className="flex flex-wrap justify-center -mx-2">
+            <div className="container mx-auto md:px-20 mb-15 mt-8 px-3 border-purple-500">
+                <div className="grid grid-cols-12 gap-4">
                     <div className="col-span-12 mb-5 pb-2">
                         <h1 className="text-center text-3xl font-bold">Featured Projects & Contributions</h1>
                         <p className='text-center mt-1'>A curated selection of real systems I built and improved across multiple companies.</p>
                     </div>
-                    {datas.map((item, index) => (
-                        <div className="basis-8/12 px-2 mb-6 hover:scale-105 duration-300" key={index}>
-                            <div className="max-w-full p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900">
-                                {/* <img src={`https://picsum.photos/id/${(index + 30)}/200/300`} className="h-48 w-96 object-cover" /> */}
+                    <div className="col-span-12 px-2 mb-6">
+                        {datas.map((item, index) => (
+                            <div key={index} className="basis-full ps-7 pe-7 p-3 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 border-t-5 border-t-slate-900">
                                 <div className="p-3 ps-3 pe-3">
                                     <h2 className="text-reguler font-bold mb-2">{item.client_project} - {item.client_name}</h2>
                                     <span className="bg-slate-900 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-xl">{item.company}</span>
@@ -278,11 +277,11 @@ export default function Portfolio() {
 
                                     <p className="text-sm font-medium">Technologies : </p>
                                     {item.tech && item.tech.length > 0 && (
-                                        <div className="mb-2">
+                                        <div className="flex flex-wrap gap-2 mb-2">
                                             {item.tech.map((tc, idx) => (
                                                 <span key={idx} className="bg-gray-500 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-xl">
                                                     {tc}
-                                                </span>
+                                                </span> 
                                             ))}
                                         </div>
                                     )}
@@ -291,8 +290,8 @@ export default function Portfolio() {
                                     <p className="text-sm">{item.result_en}</p>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
             <Footer />
