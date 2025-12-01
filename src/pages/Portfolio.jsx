@@ -5,6 +5,30 @@ export default function Portfolio() {
     const status = 'pass'
     const datas = [
         {
+            client_project: "Business Trip Management System (DDK) V2",
+            client_name: "Internal",
+            desc: "Aplikasi web untuk keperluan dinas dalam kota, terdapat role User, Verifikator, Kepala Divisi, HRGA, FAA & Direktur.",
+            role: "backend Engineer (Go) & System Architect",
+            company: "PT Arga Fasad Indonesia",
+            status: "On Going",
+            contribution: [
+                'Mendesain arsitektur microservice lengkap (Auth, User, DDK, File) dengan standar Clean Architecture, DDD, dan Dependency Injection.',
+                'Mengimplementasikan komunikasi antar-service menggunakan gRPC untuk meningkatkan kecepatan dan efisiensi.',
+                'Membangun backend DDK Service menggunakan Go secara end-to-end, termasuk domain logic, repository, dan handler.',
+                'Mendesain struktur database terpisah per service untuk memastikan isolasi data dan kemandirian service.',
+                'Menyusun API Gateway sebagai single entry point untuk menghubungkan frontend dengan beberapa microservice.',
+                // 'Membuat dokumentasi teknis mencakup diagram alur, sequence diagram, schema protobuf, dan panduan deployment.',
+                // 'Mengonfigurasi environment menggunakan Docker & Docker Compose untuk memudahkan pengembangan dan deployment.',
+            ],
+            contribution_en: [
+                'Designed a complete microservice architecture (Auth, User, DDK, File) using Clean Architecture, DDD, and Dependency Injection standards.', 'Implemented inter-service communication using gRPC to increase speed and efficiency.', 'Developed an end-to-end DDK Service backend using Go, including domain logic, repositories, and handlers.', 'Designed a separate database structure per service to ensure data isolation and service independence.',
+                'Developed an API Gateway as a single entry point to connect the frontend with multiple microservices.',
+            ],
+            tech: ['Go', 'gRPC', 'Protobuf', 'Clean Architecture', 'Domain-Driven Design (DDD)', 'Dependency Injection', 'MySQL', 'Docker', 'Nginx', 'Git'],
+            result: "Membangun ulang sistem Dinas Dalam Kota (DDK) dengan arsitektur microservice berbasis Go, gRPC, Clean Architecture, DDD, dan Dependency Injection untuk meningkatkan performa, skalabilitas, serta mempersiapkan integrasi dengan sistem DLK.",
+            result_en: "Rebuilding the City Services (DDK) system with a microservice architecture based on Go, gRPC, Clean Architecture, DDD, and Dependency Injection to improve performance, scalability, and prepare for integration with the DLK system."
+        },
+        {
             client_project: "Business Trip Management System (DDK)",
             client_name: "Internal",
             desc: "Aplikasi web untuk keperluan dinas dalam kota, terdapat role User, Verifikator, Kepala divisi, HRGA, FAA & Directur.",
@@ -25,7 +49,7 @@ export default function Portfolio() {
                 'Conducting presentations, outreach, and simulations of application usage to several divisions as part of system implementation.',
                 'Coordinate with stakeholders across divisions to ensure features run according to operational needs.'
             ],
-            tech: ['Laravel', 'Bootstrap', 'JQuery', 'MySQL', 'Nginx', 'Docker', 'draw.io'],
+            tech: ['Laravel', 'Bootstrap', 'JQuery', 'MySQL', 'Nginx', 'Docker & Docker Compose', 'draw.io'],
             result: "Berhasil merilis aplikasi Business Trip Management (DDK), sebuah sistem internal untuk pengajuan dan approval perjalanan dinas dengan role berjenjan (User, Verifikator, Kepala Divisi, HRGA, FAA dan Direktur). Implementasi fitur perhitungan jarak berbasis Maps dan otomatisasi perhitungan biaya berhasil meningkatkan akurasi data dan efisiensi proses perizinan, Sistem ini kini digunakan oleh beberapa divisi sebagai bagian dari operasiona harian perusahaan",
             result_en: "Successfully launched the Business Trip Management (DDK) application, an internal system for submitting and approving business trips with tiered roles (User, Verifier, Division Head, HRGA, FAA, and Director). The implementation of a map-based distance calculation feature and automated cost calculations has significantly improved data accuracy and the efficiency of the permitting process. This system is now used by several divisions as part of the company's daily operations."
         },
@@ -50,7 +74,7 @@ export default function Portfolio() {
                 'Conducting presentations, outreach, and simulations of application usage to several divisions as part of system implementation.',
                 'Coordinate with stakeholders across divisions to ensure features run according to operational needs.'
             ],
-            tech: ["Laravel", "Bootstrap", "JQuery", "MySQL", "Nginx", "Docker", "Draw.io"],
+            tech: ["Laravel", "Bootstrap", "JQuery", "MySQL", "Nginx", "Docker & Docker Compose", "Draw.io"],
             result: "Berhasil merilis aplikasi Business Trip Management (DLK), sebuah sistem internal untuk pengajuan dan approval perjalanan dinas dengan role berjenjang (User, Verifikator, Kepala Divisi, HRGA, FAA, dan Direktur). Implementasi fitur perhitungan jarak berbasis Maps dan otomatisasi perhitungan biaya berhasil meningkatkan akurasi data dan efisiensi proses perizinan. Sistem ini kini digunakan oleh beberapa divisi sebagai bagian dari operasional harian perusahaan",
             result_en: "Successfully launched the Business Trip Management (DLK) application, an internal system for submitting and approving business trips with tiered roles (User, Verifier, Division Head, HRGA, FAA, and Director). The implementation of a map-based distance calculation feature and automated cost calculations has significantly improved data accuracy and the efficiency of the permitting process. This system is now used by several divisions as part of the company's daily operations."
         },
