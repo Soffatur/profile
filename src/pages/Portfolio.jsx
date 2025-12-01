@@ -5,6 +5,56 @@ export default function Portfolio() {
     const status = 'pass'
     const datas = [
         {
+            client_project: "Web Company Profile",
+            client_name: "Internal",
+            desc: "Web company profile berbasi web & CMS untuk meng custom dari informasi data sampai template",
+            role: "Fullstack Developer, Coordinator, UI Design Concept for Designer reference",
+            company: "PT Arga Fasad Indonesia",
+            status: "done",
+            contribution: [
+                "Menganalisisi dan merancang database",
+                "Mendesain UI/UX awal untuk memberikan acuan kepada designer",
+                "Menjembatani komunikasi antara stackeholder dengan tim desain, dan memberikan arahan teknis kepada tim desain terkait feasibility dan responsivitas, serta memastikan desain dapat diterapkan secara optimal dalam pengembangan.",
+                "Mengembangkan front-end dan back-end menggunakan Laravel",
+                "Melakukan presentasi progres dan hasil pengembangan kepada manajemen, memberikan penjelasan teknis secara jelas, serta menangani proses deployment aplikasi ke hosting."
+            ],
+            contribution_en: [
+                "Analyzing and designing databases",
+                "Designing the initial UI/UX to provide a reference to the designer",
+                "Bridging communication between stakeholders and the design team, and providing technical guidance to the design team regarding feasibility and responsiveness, while ensuring optimal implementation of the design in development",
+                "Developing front-end and back-end using Laravel",
+                "Presenting development progress and results to management, providing clear technical explanations, and handling the application deployment process to hosting."
+            ],
+            tech: ["laravel", "Bootstrap", "JQuery", "MySQL"],
+            result: "Menyelesaikan pengembangan dan deployment website company profile responsif yang kini digunakan sebagai media resmi perusahaan.",
+            result_en: "Completed the development and deployment of a responsive company profile website which is now used as the company's official media."
+        },
+        {
+            client_project: "Web Company Profile",
+            client_name: "PT. Abaccura Indonesia (Internal)",
+            desc: "Web company profile berbasis web & CMS untuk meng custom dari informasi data sampai template",
+            role: "Fullstack Developer, Coordinator, UI Design Home Concept for Designer reference",
+            company: "PT Arga Fasad Indonesia",
+            status: "done",
+            contribution: [
+                "Menganalisis dan merancang database",
+                "Mendesain UI/UX Halaman Home untuk memberikan acuan kepada designer",
+                "Menjembatani komunikasi antara stakeholder dengan tim desain, dan Memberikan arahan teknis kepada tim desain terkait feasibility dan responsivitas, serta memastikan desain dapat diterapkan secara optimal dalam pengembangan.",
+                "Mengembangkan front-end dan back-end menggunakan Laravel",
+                "Melakukan presentasi progres dan hasil pengembangan kepada manajemen, memberikan penjelasan teknis secara jelas, serta menangani proses deployment aplikasi ke hosting."
+            ],
+            contribution_en: [
+                "Analyzing and designing databases",
+                "Designing the UI/UX of the Home Page to provide a reference to designers",
+                "Bridging communication between stakeholders and the design team, and providing technical guidance to the design team regarding feasibility and responsiveness, while ensuring optimal implementation of the design in development",
+                "Developing front-end and back-end using Laravel",
+                "Presenting development progress and results to management, providing clear technical explanations, and handling the application deployment process to hosting."
+            ],
+            tech: ["laravel", "Bootstrap", "JQuery", "MySQL"],
+            result: "Menyelesaikan pengembangan dan deployment website company profile responsif yang kini digunakan sebagai media resmi perusahaan.",
+            result_en: "Completed the development and deployment of a responsive company profile website which is now used as the company's official media."
+        },
+        {
             client_project: 'BISMA ERP Omni-Channel (Omnichannel Marketplace Integration)',
             client_name: 'Internal Product',
             desc: 'Sistem ERP yang terintegrasi dengan berbagai marketplace populer (Tokopedia, Shopee, Lazada, TikTok Shop) sehingga merchant dapat mengelola semua toko dalam satu platform, mirip dengan Jubelio. Aplikasi ini menyatukan alur pemesanan dari berbagai marketplace ke dalam satu sistem yang konsisten.',
@@ -277,11 +327,11 @@ export default function Portfolio() {
 
                                     <p className="text-sm font-medium">Technologies : </p>
                                     {item.tech && item.tech.length > 0 && (
-                                        <div className="flex flex-wrap gap-2 mb-2">
+                                        <div className="flex flex-wrap mb-2">
                                             {item.tech.map((tc, idx) => (
-                                                <span key={idx} className="bg-gray-500 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-xl">
+                                                <span key={idx} className="bg-gray-500 text-white text-xs font-medium me-2 mb-1 px-2.5 py-0.5 rounded-xl">
                                                     {tc}
-                                                </span> 
+                                                </span>
                                             ))}
                                         </div>
                                     )}
