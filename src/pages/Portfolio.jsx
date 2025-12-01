@@ -18,6 +18,13 @@ export default function Portfolio() {
                 'Melakukan presentasi, sosialisasi, dan simulasi penggunaan aplikasi kepada beberapa divisi sebagai bagian dari implementasi sistem.',
                 'Berkoordinasi dengan stakeholder lintas divisi untuk memastikan fitur berjalan sesuai kebutuhan operasional.'
             ],
+            contribution_en: [
+                'Conduct a thorough needs analysis to ensure the application complies with the business processes of the City Services.',
+                'Developing full-stack applications, including business flow, frontend and backend implementation',
+                'Manage server environments using Docker, as well as configure Nginx Reverse Proxy / Nginx Proxy Manager for application stability and security.',
+                'Conducting presentations, outreach, and simulations of application usage to several divisions as part of system implementation.',
+                'Coordinate with stakeholders across divisions to ensure features run according to operational needs.'
+            ],
             tech: ["Laravel", "Bootstrap", "JQuery", "MySQL", "Nginx", "Docker", "Draw.io"],
             result: "Berhasil merilis aplikasi Business Trip Management (DLK), sebuah sistem internal untuk pengajuan dan approval perjalanan dinas dengan role berjenjang (User, Verifikator, Kepala Divisi, HRGA, FAA, dan Direktur). Implementasi fitur perhitungan jarak berbasis Maps dan otomatisasi perhitungan biaya berhasil meningkatkan akurasi data dan efisiensi proses perizinan. Sistem ini kini digunakan oleh beberapa divisi sebagai bagian dari operasional harian perusahaan",
             result_en: "Successfully launched the Business Trip Management (DLK) application, an internal system for submitting and approving business trips with tiered roles (User, Verifier, Division Head, HRGA, FAA, and Director). The implementation of a map-based distance calculation feature and automated cost calculations has significantly improved data accuracy and the efficiency of the permitting process. This system is now used by several divisions as part of the company's daily operations."
