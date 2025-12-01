@@ -5,6 +5,31 @@ export default function Portfolio() {
     const status = 'pass'
     const datas = [
         {
+            client_project: "Business Trip Management System (DDK)",
+            client_name: "Internal",
+            desc: "Aplikasi web untuk keperluan dinas dalam kota, terdapat role User, Verifikator, Kepala divisi, HRGA, FAA & Directur.",
+            role: "Fullstack Developer & System Analyst (Stakeholder Communication & DevOps Responsibilities)",
+            company: "PT Arga Fasad Indonesia",
+            status: "done",
+            contribution: [
+                'Melakukan analisis kebutuhan secara menyeluruh untuk memastikan aplikasi sesuai dengan proses bisnis dinas Dalam Kota.',
+                'Mengembangkan aplikasi secara fullstack, mencakup flow bisnis, implementasi frontend dan backend',
+                'Mengelola environment server menggunakan Docker, serta melakukan konfigurasi Nginx Reverse Proxy / Nginx Proxy Manager untuk stabilitas dan keamanan aplikasi',
+                'Melakukan presentasi, sosialisasi, dan simulasi penggunaan aplikasi kepada beberapa divisi sebagai bagian dari implementasi sistem.',
+                'Berkoordinasi dengan stakeholder lintas divisi untuk memastikan fitur berjalan sesuai kebutuhan operasional'
+            ],
+            contribution_en: [
+                'Conduct a thorough needs analysis to ensure the application is in line with the business processes of the City Service.',
+                'Developing full-stack applications, including business flow, frontend and backend implementation',
+                'Manage server environments using Docker, as well as configure Nginx Reverse Proxy / Nginx Proxy Manager for application stability and security.',
+                'Conducting presentations, outreach, and simulations of application usage to several divisions as part of system implementation.',
+                'Coordinate with stakeholders across divisions to ensure features run according to operational needs.'
+            ],
+            tech: ['Laravel', 'Bootstrap', 'JQuery', 'MySQL', 'Nginx', 'Docker', 'draw.io'],
+            result: "Berhasil merilis aplikasi Business Trip Management (DDK), sebuah sistem internal untuk pengajuan dan approval perjalanan dinas dengan role berjenjan (User, Verifikator, Kepala Divisi, HRGA, FAA dan Direktur). Implementasi fitur perhitungan jarak berbasis Maps dan otomatisasi perhitungan biaya berhasil meningkatkan akurasi data dan efisiensi proses perizinan, Sistem ini kini digunakan oleh beberapa divisi sebagai bagian dari operasiona harian perusahaan",
+            result_en: "Successfully launched the Business Trip Management (DDK) application, an internal system for submitting and approving business trips with tiered roles (User, Verifier, Division Head, HRGA, FAA, and Director). The implementation of a map-based distance calculation feature and automated cost calculations has significantly improved data accuracy and the efficiency of the permitting process. This system is now used by several divisions as part of the company's daily operations."
+        },
+        {
             client_project: "Business Trip Management System (DLK)",
             client_name: "Internal",
             desc: "Aplikasi web untuk keperluan dinas luar kota, terdapat role User, Verifikator, Kepala divisi, HRGA, FAA & Direktur.",
@@ -12,14 +37,14 @@ export default function Portfolio() {
             company: "PT Arga Fasad Indonesia",
             status: "done",
             contribution: [
-                'Melakukan analisis kebutuhan secara menyeluruh untuk memastikan aplikasi sesuai proses bisnis Dinas Dalam Kota.',
-                'Mengembangkan aplikasi secara fullstack, mencakup flow bisnis, implementasi frontend, dan backend ',
+                'Melakukan analisis kebutuhan secara menyeluruh untuk memastikan aplikasi sesuai dengan proses bisnis Dinas Luar Kota.',
+                'Mengembangkan aplikasi secara fullstack, mencakup flow bisnis, implementasi frontend dan backend ',
                 'Mengelola environment server menggunakan Docker, serta melakukan konfigurasi Nginx Reverse Proxy / Nginx Proxy Manager untuk stabilitas dan keamanan aplikasi.',
                 'Melakukan presentasi, sosialisasi, dan simulasi penggunaan aplikasi kepada beberapa divisi sebagai bagian dari implementasi sistem.',
                 'Berkoordinasi dengan stakeholder lintas divisi untuk memastikan fitur berjalan sesuai kebutuhan operasional.'
             ],
             contribution_en: [
-                'Conduct a thorough needs analysis to ensure the application complies with the business processes of the City Services.',
+                'Conduct a thorough needs analysis to ensure the application complies with the Out of Town Service business processes.',
                 'Developing full-stack applications, including business flow, frontend and backend implementation',
                 'Manage server environments using Docker, as well as configure Nginx Reverse Proxy / Nginx Proxy Manager for application stability and security.',
                 'Conducting presentations, outreach, and simulations of application usage to several divisions as part of system implementation.',
