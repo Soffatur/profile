@@ -369,7 +369,8 @@ export default function Portfolio() {
                                 <div className="p-3 ps-3 pe-3">
                                     <h2 className="text-reguler font-bold mb-2">{item.client_project} - {item.client_name}</h2>
                                     <span className="bg-slate-900 text-white text-xs font-medium me-2 px-2.5 py-0.5 rounded-xl">{item.company}</span>
-                                    <p className="text-sm font-medium mt-1 mb-1">Status : <span className="text-xs font-medium bg-blue-500 text-white me-2 px-2.5 py-0.5 rounded-xl">{item.status}</span></p>
+                                    <p className="text-sm font-medium mt-1 mb-1">Status : {item.status === 'done' ? (<span className="text-xs font-medium bg-blue-500 text-white me-2 px-2.5 py-0.5 rounded-xl">{item.status}</span>) : (<span className="text-xs font-medium bg-green-500 text-white me-2 px-2.5 py-0.5 rounded-xl">{item.status}</span>)}
+                                    </p>
                                     <p className="text-sm font-medium">Contribution :</p>
                                     {item.contribution_en && item.contribution_en.length > 0 && (
                                         <ul className="list-disc text-sm mb-2 list-inside">
