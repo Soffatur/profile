@@ -10,23 +10,25 @@ export default function Portfolio() {
             desc: "Aplikasi web untuk keperluan dinas dalam kota, terdapat role User, Verifikator, Kepala Divisi, HRGA, FAA & Direktur.",
             role: "backend Engineer (Go) & System Architect",
             company: "PT Arga Fasad Indonesia",
-            status: "On Going",
+            status: "Ongoing (Golang Backend Migration",
             contribution: [
-                'Mendesain arsitektur microservice lengkap (Auth, User, DDK, File) dengan standar Clean Architecture, DDD, dan Dependency Injection.',
-                'Mengimplementasikan komunikasi antar-service menggunakan gRPC untuk meningkatkan kecepatan dan efisiensi.',
-                'Membangun backend DDK Service menggunakan Go secara end-to-end, termasuk domain logic, repository, dan handler.',
-                'Mendesain struktur database terpisah per service untuk memastikan isolasi data dan kemandirian service.',
-                'Menyusun API Gateway sebagai single entry point untuk menghubungkan frontend dengan beberapa microservice.',
-                // 'Membuat dokumentasi teknis mencakup diagram alur, sequence diagram, schema protobuf, dan panduan deployment.',
-                // 'Mengonfigurasi environment menggunakan Docker & Docker Compose untuk memudahkan pengembangan dan deployment.',
+                'Merancang arsitektur microservice (Auth, User, DDK, File, Notification, Vehicle) menggunakan Clean Architecture, DDD, dan Dependency Injection.',
+                'Mengimplementasikan komunikasi antar-layanan berbasis gRPC untuk pertukaran data yang lebih cepat dan efisien.',
+                'Mengembangkan backend Go untuk Layanan DDK: logika domain, repositori, dan handler.',
+                'Memelihara basis data terpisah untuk setiap layanan guna memastikan isolasi data dan independensi layanan.',
+                'Membuat API Gateway sebagai titik masuk tunggal untuk integrasi frontend (Laravel).'
             ],
             contribution_en: [
-                'Designed a complete microservice architecture (Auth, User, DDK, File) using Clean Architecture, DDD, and Dependency Injection standards.', 'Implemented inter-service communication using gRPC to increase speed and efficiency.', 'Developed an end-to-end DDK Service backend using Go, including domain logic, repositories, and handlers.', 'Designed a separate database structure per service to ensure data isolation and service independence.',
-                'Developed an API Gateway as a single entry point to connect the frontend with multiple microservices.',
+                'Designed microservice architecture (Auth, User, DDK, File, Notification, Vehicle) using Clean Architecture, DDD, and Dependency Injection.',
+                'Implemented gRPC-based inter-service communication for faster and more efficient data exchange.',
+                'Developed Go backend for DDK Service: domain logic, repositories, and handlers.',
+                'Maintained separate databases per service to ensure data isolation and service independence.',
+                'Created API Gateway as a single entry point for frontend integration (Laravel).'
             ],
-            tech: ['Go', 'gRPC', 'Protobuf', 'Clean Architecture', 'Domain-Driven Design (DDD)', 'Dependency Injection', 'MySQL', 'Docker', 'Nginx', 'Git'],
-            result: "Membangun ulang sistem Dinas Dalam Kota (DDK) dengan arsitektur microservice berbasis Go, gRPC, Clean Architecture, DDD, dan Dependency Injection untuk meningkatkan performa, skalabilitas, serta mempersiapkan integrasi dengan sistem DLK.",
-            result_en: "Rebuilding the City Services (DDK) system with a microservice architecture based on Go, gRPC, Clean Architecture, DDD, and Dependency Injection to improve performance, scalability, and prepare for integration with the DLK system."
+            tech: ['Go', 'gRPC', 'Protobuf', 'Clean Architecture', 'Domain-Driven Design (DDD)', 'Dependency Injection', 'MySQL', 'Docker', 'Nginx', 'Git', 'Laravel (Frontend)'],
+            link_github: "https://gitlab.com/Soffatur/official-travel-platform",
+            result: "Migrasi sistem DDK ke arsitektur microservice berbasis Go, meningkatkan performa, skalabilitas, dan mempersiapkan integrasi dengan sistem DLK.Memungkinkan transisi yang lebih lancar dari arsitektur monolit Laravel ke arsitektur microservice sambil menjaga stabilitas frontend.",
+            result_en: "Migrated DDK system to Go-based microservices, improving performance, scalability, and preparing integration with DLK system. Enabled smoother transition from Laravel monolith to microservices architecture while keeping frontend stable."
         },
         {
             client_project: "Business Trip Management System (DDK)",
@@ -402,7 +404,7 @@ export default function Portfolio() {
 
                                     <p className="text-sm font-medium">Technologies : </p>
                                     {item.tech && item.tech.length > 0 && (
-                                        <div className="flex flex-wrap mb-2">
+                                        <div className="flex flex-wrap mb-1">
                                             {item.tech.map((tc, idx) => (
                                                 <span key={idx} className="bg-gray-500 text-white text-xs font-medium me-2 mb-1 px-2.5 py-0.5 rounded-xl">
                                                     {tc}
@@ -410,6 +412,10 @@ export default function Portfolio() {
                                             ))}
                                         </div>
                                     )}
+
+                                    {item.link_github ? (
+                                        <p className="text-sm font-medium mb-1">Link Github : <a className="text-blue-600" href={item.link_github} target="blank">Visit</a></p>
+                                    ) : ""}
 
                                     <p className="text-sm font-medium">Result :</p>
                                     <p className="text-sm">{item.result_en}</p>

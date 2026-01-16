@@ -1,4 +1,4 @@
-import { faCode, faChartDiagram, faDiagramProject, faShareNodes, faLanguage } from '@fortawesome/free-solid-svg-icons';
+import { faLaptopCode, faCode, faChartDiagram, faDiagramProject, faShareNodes, faLanguage } from '@fortawesome/free-solid-svg-icons';
 import CardExperience from '../components/CardExperience';
 import CardEducation from '../components/CardEducation';
 import CardCertificate from '../components/CardCertificate';
@@ -12,10 +12,11 @@ export default function Resume() {
             company: "PT. Arga Fasad Indonesia",
             date: "April 2024 - Present",
             description: [
-                "Develop and maintain internal applications using Laravel, MySQL, Bootstrap, and TailwindCSS.",
-                "Manage deployment and infrastructure with Docker and Nginx.",
-                "Coordinate with multiple divisions to analyze requirements, build documentation, and train users.",
-                "Act as a bridge between business needs and technical implementation."
+                'Designed, developed, and maintained internal applications using Laravel, MySQL, TailwindCSS, and Bootstrap.',
+                'Managed deployment, infrastructure, and server configuration with Docker and Nginx.',
+                'Coordinated with multiple divisions to analyze business needs, create documentation, and train end-users.',
+                'Acted as a bridge between business requirements and technical implementation, delivering end-to-end solutions.',
+                'Developing internal microservices using Golang, implementing gRPC communication and clean architecture to enhance system scalability.'
             ]
         },
         {
@@ -54,9 +55,10 @@ export default function Resume() {
     ];
 
     const skills = [
-        { 'icon': faCode, title: "Software Development & Infrastructure", items: ['HTML, Bootstrap, TailwindCSS', 'PHP (Laravel)', 'Golang', 'Node.js (Expres.js)', 'REST API', 'MySQL, PostgreSQL, Redis', 'Postman', 'Docker', 'Nginx', 'VPS Management', 'Version Control (Git, Gitlab, Github)' ] },
-        { 'icon': faChartDiagram, title: "UI/UX & Diagramming", items: ['Figma', 'Balsamiq (Wireframing)', 'Miro', 'Draw.io (Flowcharting, Activity Diagram)'] },
-        { 'icon': faDiagramProject, title: "Project Management & Collaboration", items: ['Trello', 'Jira', 'Notion', 'Slack', 'User Story', 'Agile & Scrum understanding', 'Market Research', 'Feature Prioritization', 'Product Requirement Document (PRD)'] },
+        { 'icon': faCode, title: "Software Development & Infrastructure", items: ['Golang', 'PHP (Laravel)', 'Node.js (Expres.js)', 'REST API', 'MySQL, PostgreSQL, Redis', 'Docker', 'Nginx', 'VPS Management', 'Version Control (Git, Gitlab, Github)', 'Postman' ] },
+        { 'icon': faLaptopCode, title: "System Design & Microservices", items: ['Microservice Architecture', 'gRPC', 'API Gateway', 'Domain-Driven Design (DDD)', 'Clean Architecture'] },
+        { 'icon': faChartDiagram, title: "UI/UX & Diagramming (Support Skill)", items: ['Figma', 'Balsamiq (Wireframing)', 'Miro', 'Draw.io (Flowcharting, Activity Diagram)'] },
+        { 'icon': faDiagramProject, title: "Project Management & Collaboration (Support Skill)", items: ['Trello', 'Jira', 'Notion', 'Slack', 'User Story', 'Agile & Scrum understanding', 'Market Research', 'Feature Prioritization', 'Product Requirement Document (PRD)'] },
         { 'icon': faShareNodes, title: "Soft Skill", items: ['Communication', 'Problem Solving', 'Initiative', 'Collaboration', 'Critical Thinking', 'Adaptability', 'Empathy', 'Time Mamagement'] },
         { 'icon': faLanguage, title: "Language", items: ['Indonesian (Native)', 'English(Improving for Profesional Use)'] },
     ];
