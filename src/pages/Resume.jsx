@@ -44,7 +44,9 @@ export default function Resume() {
     ]
 
     const certificates = [
-        { type: 'training', title: "Harisenin.com", desc: "UI/UX & Product Management", year: "Ongoing, 2025" },
+        { type: 'training', title: "Google", desc: "Google Project Management", year: "2025" },
+        { type: 'training', title: "Digital Talent Scholarship", desc: "Project Management", year: "2025" },
+        { type: 'training', title: "Harisenin.com", desc: "UI/UX & Product Management", year: "2025" },
         { type: 'training', title: "GreatLearning", desc: "Project Management Course", year: "2022" },
         { type: 'training', title: "GreatLearning", desc: "Product Management Course", year: "2022" },
         { type: 'training', title: "Coda", desc: "Advanced Crash Course (Remote Working, Agile Development, Git and Project Deliveries)", year: "2022" },
