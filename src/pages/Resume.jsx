@@ -12,11 +12,11 @@ export default function Resume() {
             company: "PT. Arga Fasad Indonesia",
             date: "April 2024 - Present",
             description: [
-                'Designed, developed, and maintained internal applications using Laravel, MySQL, TailwindCSS, and Bootstrap.',
-                'Managed deployment, infrastructure, and server configuration with Docker and Nginx.',
-                'Coordinated with multiple divisions to analyze business needs, create documentation, and train end-users.',
-                'Acted as a bridge between business requirements and technical implementation, delivering end-to-end solutions.',
-                'Developing internal microservices using Golang, implementing gRPC communication and clean architecture to enhance system scalability.'
+                'Analyze business needs and design databases and application architecture.',
+                'Develop and maintain full-stack applications using Laravel, JavaScript, and Go.',
+                'Manage and configure servers using Docker and Nginx, as well as deploy production applications.',
+                'Create documentation and educate users on application usage.',
+                'Collaborate with management to map and design new system solutions and provide technical support when needed, including incident management in the field.'
             ]
         },
         {
