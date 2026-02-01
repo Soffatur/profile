@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 export default function Resume() {
     let experiences = [
         {
-            title: "Staff IT",
+            title: "System Analyst & Fullstack Developer (Official Title : Staff IT)",
             company: "PT. Arga Fasad Indonesia",
             date: "April 2024 - Present",
             description: [
@@ -20,7 +20,7 @@ export default function Resume() {
             ]
         },
         {
-            title: "Programmer",
+            title: "Fullstack Developer (Official Title : Programmer)",
             company: "PT. Majapahit Teknologi",
             date: "March 2021 - July 2023",
             description: [
