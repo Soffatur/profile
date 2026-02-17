@@ -10,7 +10,7 @@ export default function Portfolio() {
             desc: "Aplikasi web untuk keperluan dinas dalam kota, terdapat role User, Verifikator, Kepala Divisi, HRGA, FAA & Direktur.",
             role: "backend Engineer (Go) & System Architect",
             company: "PT Arga Fasad Indonesia",
-            status: "Ongoing (Golang Backend Migration",
+            status: "Ongoing (Golang Backend Migration)",
             contribution: [
                 'Merancang arsitektur microservice (Auth, User, DDK, File, Notification, Vehicle) menggunakan Clean Architecture, DDD, dan Dependency Injection.',
                 'Mengimplementasikan komunikasi antar-layanan berbasis gRPC untuk pertukaran data yang lebih cepat dan efisien.',
@@ -159,7 +159,7 @@ export default function Portfolio() {
         },
         {
             client_project: 'LPH Certification System (Halal Certification App)',
-            client_name: 'Perorangan',
+            client_name: 'Personal',
             desc: 'Aplikasi berbasis web untuk simulasi proses sertifikasi halal, dirancang agar lebih sederhana, ringan, dan user-friendly dibandingkan sistem resmi. Aplikasi ini dikembangkan untuk mendukung perorangan yang ingin membuat sistem internal mirip LPH (Lembaga Pemeriksa Halal).',
             role: 'Fullstack Developer',
             company: 'PT Majapahit Teknologi Nusantara',
@@ -221,8 +221,8 @@ export default function Portfolio() {
             result_en: 'HR System helps companies speed up HR administration processes, reduce manual processes, and increase the effectiveness of communication and distribution of pay slips safely and efficiently.',
         },
         {
-            client_project: 'SIMONAS (Sistem Informasi Monitoring Alumni Sertifikasi)',
-            client_name: 'Kementerian Kominfo',
+            client_project: 'SIMONAS',
+            client_name: 'Kominfo (Komdigi Present)',
             desc: 'Platform job portal yang menghubungkan alumni program pelatihan bersertifikat dengan perusahaan rekanan. Pengguna yang sudah memiliki sertifikat dapat login melalui SSO (Single Sign-On), mendaftar pekerjaan, dan dipantau hingga tahap penerimaan kerja. Saya terlibat dalam pengembangan fitur baru dan perbaikan bug pada sistem yang sudah berjalan.',
             role: 'Fullstack Developer',
             company: 'PT Majapahit Teknologi Nusantara',
