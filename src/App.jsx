@@ -20,11 +20,6 @@ export default function App() {
             <Custom />
           </ProtectedRoute>
         } />
-        <Route path='/yamin' element={
-           <div>
-            <h1 className='text-3xl text-center font-bold'>Yamin Kontol! Hahahahaha</h1>
-          </div>
-        } />
       </Routes>
     </div>
   );
