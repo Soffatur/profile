@@ -10,7 +10,7 @@ export default function Portfolio() {
             desc: "Aplikasi web untuk keperluan dinas dalam kota, terdapat role User, Verifikator, Kepala Divisi, HRGA, FAA & Direktur.",
             role: "backend Engineer (Go) & System Architect",
             company: "PT Arga Fasad Indonesia",
-            status: "Ongoing (Golang Backend Migration)",
+            status: "done",
             contribution: [
                 'Merancang arsitektur microservice (Auth, User, DDK, File, Notification, Vehicle) menggunakan Clean Architecture, DDD, dan Dependency Injection.',
                 'Mengimplementasikan komunikasi antar-layanan berbasis gRPC untuk pertukaran data yang lebih cepat dan efisien.',
