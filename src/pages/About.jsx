@@ -18,7 +18,7 @@ export default function About() {
                         <section className="about-text mb-4">
                             <h1 className="mb-2 text-3xl font-bold">Muhammad Soffatur Rohman</h1>
                             <h3 className="mb-4 text-xl flex">
-                                Software Engineer - Backend Focused | Fullstack Laravel (4+ years)
+                                Backend Engineer (Golang) | Ex-Laravel Fullstack (4+ Years)
                             </h3>
                             <p className="text-[16px]">
                                 I am a backend engineer with 4+ years of experience building and maintaining production web applications. My core expertise started with Laravel, where I contributed to full-stack development to deliver complete and reliable solutions. 
