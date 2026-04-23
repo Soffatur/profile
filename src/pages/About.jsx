@@ -21,12 +21,15 @@ export default function About() {
                                 Software Engineer - Backend Focused | Fullstack Laravel (4+ years)
                             </h3>
                             <p className="text-[16px]">
-                                I am a backend engineer with 4+ years of experience building and maintaining production web applications. While my core expertise is in backend development, I have often contributed to full-stack projects using Laravel to deliver complete solutions and support cross-functional teams. 
+                                I am a backend engineer with 4+ years of experience building and maintaining production web applications. My core expertise started with Laravel, where I contributed to full-stack development to deliver complete and reliable solutions. 
                                 <br /><br />
-                                Recently, I have been expanding my backend expertise into Golang by building a microservice-based project. Through this, I gained hands-on experience in implementing service-to-service communication using gRPC, designing API Gateway patterns, and applying domain-driven design principles to structure scalable and maintainable backend systems. 
+                                Recently, I have been focusing on backend development using Golang by building microservice-based systems. Through this experience, I have implemented service-to-service communication using gRPC, designed API Gateway patterns, and applied domain-driven design principles to create scalable and maintainable architectures. 
                                 <br /><br />
-                                In addition, I have worked with deployment and infrastructure technologies such as Docker and Nginx to containerize services and manage server configurations. These experiences strengthen my ability to bridge the gap between software development and deployment practices.
-                                <br /><br /> I enjoy translating complex business requirements into structured backend solutions and am continuously growing my technical skills, including deployment and infrastructure practices. In the long term, I aspire to grow into a Project Manager role, where I can combine my technical background with leadership and strategic planning to drive successful project delivery.
+                                I also have hands-on experience with deployment and infrastructure tools such as Docker and Nginx, enabling me to containerize applications and manage server environments effectively.
+                                <br /><br />
+                                In addition, I have completed project management training, which helps me understand project workflows, stakeholder communication, and delivery processes. This allows me to collaborate effectively across teams and contribute beyond just coding.
+                                <br /><br />
+                                I enjoy translating complex business requirements into structured backend systems and continuously improving my skills in system design, scalability, and modern backend technologies—especially within the Golang ecosystem.
                             </p>
                         </section>
                         <section className="mt-8 flex flex-wrap md:justify-between">
